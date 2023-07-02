@@ -1,0 +1,6 @@
+core/**/*
+vendor/**/*
+sites/**/files/**/*
+**/js_test_files/**/*
+**/node_modules/**/*
+sites/default/settings.php
