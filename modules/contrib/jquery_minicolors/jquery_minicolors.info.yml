@@ -1,0 +1,10 @@
+name: jQuery MiniColors
+type: module
+description: Provide a text field widget for using jQuery MiniColors Library
+core_version_requirement: ^9 || ^10
+package: Field
+
+# Information added by Drupal.org packaging script on 2022-12-16
+version: '2.0.0'
+project: 'jquery_minicolors'
+datestamp: 1671200492
