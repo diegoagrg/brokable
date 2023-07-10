@@ -1,0 +1,76 @@
+framework:
+  css:
+    theme:
+      css/style.css: {}
+      https://fonts.googleapis.com/css?family=Roboto+Condensed: {}      
+      /libraries/slick/slick/slick.css: {}
+      /libraries/slick/slick/slick-theme.css: {}
+      /libraries/brokable/css/brokable.css: {}
+  js:
+    /libraries/slick/slick/slick.min.js: {}
+    /libraries/slick/slick.js: {}
+    /libraries/brokable/js/menu_vistas_cable/menu_vistas_cable.js: {}
+    /libraries/brokable/js/brokable.js: {}
+    /libraries/brokable/js/anclas/scroll_to.js: {}
+    /libraries/brokable/js/sticky_element/sticky_element.js: {}
+    /libraries/brokable/js/menu/menu.js: {}
+    /libraries/brokable/js/slider/slider.js: {}
+    /libraries/brokable/js/conectores/view_categorias_conectores.js: {}
+    /libraries/brokable/js/conectores/conector.js: {}
+  dependencies:
+    - core/jquery
+
+# Uncomment for LESS source JavaScript files.
+#  js:
+#    bootstrap/js/affix.js: {}
+#    bootstrap/js/alert.js: {}
+#    bootstrap/js/button.js: {}
+#    bootstrap/js/carousel.js: {}
+#    bootstrap/js/collapse.js: {}
+#    bootstrap/js/dropdown.js: {}
+#    bootstrap/js/modal.js: {}
+#    bootstrap/js/tooltip.js: {}
+#    bootstrap/js/popover.js: {}
+#    bootstrap/js/scrollspy.js: {}
+#    bootstrap/js/tab.js: {}
+#    bootstrap/js/transition.js: {}
+
+# Uncomment for SASS source JavaScript files.
+#  js:
+#    bootstrap/assets/javascripts/bootstrap/affix.js: {}
+#    bootstrap/assets/javascripts/bootstrap/alert.js: {}
+#    bootstrap/assets/javascripts/bootstrap/button.js: {}
+#    bootstrap/assets/javascripts/bootstrap/carousel.js: {}
+#    bootstrap/assets/javascripts/bootstrap/collapse.js: {}
+#    bootstrap/assets/javascripts/bootstrap/dropdown.js: {}
+#    bootstrap/assets/javascripts/bootstrap/modal.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tooltip.js: {}
+#    bootstrap/assets/javascripts/bootstrap/popover.js: {}
+#    bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tab.js: {}
+#    bootstrap/assets/javascripts/bootstrap/transition.js: {}
+
+brokable_tabs:
+  js:
+    /libraries/brokable/js/tabs/tabs.js: {}
+  dependencies:
+    - core/jquery
+
+brokable_casos:
+  js:
+    /libraries/brokable/js/dropdown_tile/dropdown_tile.js: {}
+  dependencies:
+    - core/jquery
+
+brokable_sectores:
+  js:
+    /libraries/brokable/js/dropdown_tile/sector-industrial.js: {}
+  dependencies:
+    - core/jquery
+
+brokable_metales:
+  js:
+    /libraries/brokable/js/precios_metal/cobre.js: {}
+    /libraries/brokable/js/precios_metal/precios_metal_controlador.js: {}
+  dependencies:
+    - core/jquery
